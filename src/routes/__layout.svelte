@@ -10,7 +10,7 @@
 </main>
 
 <footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+	<p>Made with <a href="https://velvetyne.fr/fonts/bluu/">bluu</a>, <a href="https://jenil.github.io/chota/">chota</a>, <a href="https://rsms.me/inter/">Inter</a>, <a href="https://kit.svelte.dev">SvelteKit</a>, and ❤️.</p>
 </footer>
 
 <style>
