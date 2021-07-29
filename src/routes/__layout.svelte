@@ -9,37 +9,20 @@
 	<slot />
 </main>
 
-<footer>
-	<p>Made with <a href="https://velvetyne.fr/fonts/bluu/">bluu</a>, <a href="https://jenil.github.io/chota/">chota</a>, <a href="https://rsms.me/inter/">Inter</a>, <a href="https://kit.svelte.dev">SvelteKit</a>, and ❤️.</p>
+<footer class="is-center">
+	<p>
+		Made with <a href="https://velvetyne.fr/fonts/bluu/" id="bluu">bluu</a>,
+		<a href="https://jenil.github.io/chota/">⚡️chota</a>,
+		<a href="https://rsms.me/inter/" id="inter">Inter</a>,
+		<a href="https://kit.svelte.dev">🌈SvelteKit</a>, and ❤️.
+	</p>
 </footer>
 
 <style>
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 1024px;
-		margin: 0 auto;
-		box-sizing: border-box;
+	a#bluu {
+		font-family: 'bluu';
 	}
-
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 40px;
-	}
-
-	footer a {
+	a#inter {
 		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 40px 0;
-		}
 	}
 </style>
