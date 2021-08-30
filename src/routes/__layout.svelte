@@ -9,11 +9,11 @@
 	<slot />
 </main>
 
-<footer class="is-center">
+<footer>
 	<p>
 		Made with <a href="https://velvetyne.fr/fonts/bluu/" id="bluu">bluu</a>,
-		<a href="https://jenil.github.io/chota/">⚡️chota</a>,
 		<a href="https://rsms.me/inter/" id="inter">Inter</a>,
+		<a href="https://picnicss.com/">Picnic</a>,
 		<a href="https://kit.svelte.dev">🌈SvelteKit</a>, and ❤️.
 	</p>
 </footer>

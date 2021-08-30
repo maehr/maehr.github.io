@@ -1,4 +1,4 @@
-@import 'chota';
+@import "../node_modules/picnic/picnic.min.css";
 /* inter-regular - latin */
 @font-face {
 	font-family: 'Inter';

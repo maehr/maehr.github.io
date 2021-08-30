@@ -12,25 +12,23 @@
 	},
 	"devDependencies": {
 		"@sveltejs/kit": "next",
-		"@typescript-eslint/eslint-plugin": "^4.28.5",
-		"@typescript-eslint/parser": "^4.28.5",
-		"chota": "0.8.0",
-		"eslint": "^7.31.0",
+		"@typescript-eslint/eslint-plugin": "^4.29.3",
+		"@typescript-eslint/parser": "^4.29.3",
+		"eslint": "^7.32.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^3.2.0",
+		"picnic": "^6.5.5",
 		"prettier": "~2.2.1",
-		"prettier-plugin-svelte": "^2.3.1",
-		"svelte": "^3.41.0",
-		"svelte-check": "^2.2.3",
-		"svelte-chota": "^1.8.6",
-		"svelte-preprocess": "^4.7.4",
-		"tslib": "^2.3.0",
-		"typescript": "^4.3.5"
+		"prettier-plugin-svelte": "^2.4.0",
+		"svelte": "^3.42.4",
+		"svelte-check": "^2.2.5",
+		"svelte-preprocess": "^4.8.0",
+		"tslib": "^2.3.1",
+		"typescript": "^4.4.2"
 	},
 	"type": "module",
 	"dependencies": {
 		"@lukeed/uuid": "^2.0.0",
-		"cookie": "^0.4.1",
-		"svelte-burger-menu": "^1.0.5"
+		"cookie": "^0.4.1"
 	}
 }
