@@ -4,8 +4,84 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-
+		<link rel="stylesheet" href="https://unpkg.com/mvp.css" />
 		%svelte.head%
+		<style>
+			:root {
+				--border-radius: 5px;
+				--box-shadow: 2px 2px 10px;
+				--color: #118bee;
+				--color-accent: #118bee0b;
+				--color-bg: #fff;
+				--color-bg-secondary: #e9e9e9;
+				--color-secondary: #920de9;
+				--color-secondary-accent: #920de90b;
+				--color-shadow: #f4f4f4;
+				--color-text: #000;
+				--color-text-secondary: #999;
+				--font-family: 'Inter', sans-serif;
+				--hover-brightness: 1.2;
+				--justify-important: center;
+				--justify-normal: left;
+				--line-height: 150%;
+				--width-card: 285px;
+				--width-card-medium: 460px;
+				--width-card-wide: 800px;
+				--width-content: 1080px;
+			}
+			/* inter-regular - latin */
+			@font-face {
+				font-family: 'Inter';
+				font-style: normal;
+				font-weight: 400;
+				src: local(''), url('../fonts/inter-v3-latin-regular.woff2') format('woff2'),
+					/* Chrome 26+, Opera 23+, Firefox 39+ */ url('../fonts/inter-v3-latin-regular.woff')
+						format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+			}
+			/* ibm-plex-mono-regular - latin */
+			@font-face {
+				font-family: 'IBM Plex Mono';
+				font-style: normal;
+				font-weight: 400;
+				src: local(''), url('../fonts/ibm-plex-mono-v6-latin-regular.woff2') format('woff2'),
+					/* Chrome 26+, Opera 23+, Firefox 39+ */
+						url('../fonts/ibm-plex-mono-v6-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+			}
+
+			@font-face {
+				font-family: 'bluu';
+				font-weight: normal;
+				font-style: normal;
+				src: local(''), url('../fonts/bluunext-bold-webfont.woff2') format('woff2'),
+					url('../fonts/bluunext-bold-webfont.woff') format('woff');
+			}
+
+			@font-face {
+				font-family: 'bluu';
+				font-weight: normal;
+				font-style: italic;
+				src: local(''), url('../fonts/bluunext-bolditalic-webfont.woff2') format('woff2'),
+					url('../fonts/bluunext-bolditalic-webfont.woff') format('woff');
+			}
+
+			@font-face {
+				font-family: 'bluu_nexttitling';
+				font-weight: normal;
+				font-style: normal;
+				src: local(''), url('../fonts/bluunext-titling.woff2') format('woff2'),
+					url('../fonts/bluunext-titling.woff') format('woff');
+			}
+
+			.secondary-font,
+			h1,
+			h2,
+			h3,
+			h4,
+			h5,
+			h6 {
+				font-family: 'bluu';
+			}
+		</style>
 	</head>
 	<body>
 		<div id="svelte">%svelte.body%</div>
