@@ -12,3 +12,39 @@ sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonu
 invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
 justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
 ipsum dolor sit amet.
+
+<table class="charts-css [ column ] [ show-primary-axis show-4-secondary-axes ] [ data-spacing-4 reverse-data ]">
+
+  <caption> Front End Developer Salary </caption>
+
+  <thead>
+    <tr>
+      <th scope="col"> Year </th>
+      <th scope="col"> Income </th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <th scope="row"> 2016 </th>
+      <td style="--size: calc( 40 / 100 );"> $ 40K </td>
+    </tr>
+    <tr>
+      <th scope="row"> 2017 </th>
+      <td style="--size: calc( 60 / 100 );"> $ 60K </td>
+    </tr>
+    <tr>
+      <th scope="row"> 2018 </th>
+      <td style="--size: calc( 75 / 100 );"> $ 75K </td>
+    </tr>
+    <tr>
+      <th scope="row"> 2019 </th>
+      <td style="--size: calc( 90 / 100 );"> $ 90K </td>
+    </tr>
+    <tr>
+      <th scope="row"> 2020 </th>
+      <td style="--size: calc( 100 / 100 );"> $ 100K <br> 👑 </td>
+    </tr>
+  </tbody>
+
+</table>
